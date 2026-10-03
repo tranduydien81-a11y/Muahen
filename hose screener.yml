@@ -2,11 +2,11 @@
 # (GitHub yeu cau dung ten thu muc nay de nhan dien workflow).
 name: HOSE Screener hang ngay
 
-on:
-  schedule:
+#on:
+  #schedule:
     # 08:15 UTC = 15:15 gio Viet Nam (sau khi dong cua HOSE 15:00)
-    - cron: "15 8 * * 1-5"   # Thu Hai - Thu Sau
-  workflow_dispatch: {}      # cho phep bam chay tay tren GitHub / app di dong
+    #- cron: "15 8 * * 1-5"   # Thu Hai - Thu Sau
+  #workflow_dispatch: {}      # cho phep bam chay tay tren GitHub / app di dong
 
 jobs:
   chay-screener:
